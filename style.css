@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  background-color: #2B3A55;
+  font-family: 'Dancing Script', cursive;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+} 
+
+h2 {
+  margin: 10px 0 20px;
+  text-align: center;
+  color: #FED049;
+  font-size: 7vh;
+}
+
+label {
+  color: whitesmoke;
+  font-size: 2ch;
+
+}
+
+input[type="checkbox"] {
+  margin-right: 0;
+}
+
+.note{
+  font-size: 9px;
+  padding: 0px;
+  color: #FED049;
+}
+
+.container {
+  padding: 20px;
+  width: 350px;
+  max-width: 100%;
+  background:  #AA5656;
+  border: 12px whitesmoke;
+  margin: auto;
+
+}
+
+.result-container {
+  background-color: whitesmoke;
+  border: 12px black;
+  filter: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 1px;
+  height: 60px;
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+textarea {
+  background: white;
+  border: none;
+  color: blue;
+  font-size: 20px;
+  margin-top: auto;
+  outline: none;
+  resize: none;
+}
+
+.result-container .btn {
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 40px;
+  width: 40px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.btn {
+  width: 50%;
+  border: none;
+  color: var(--color);
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 12px;
+  margin: 14px 5px 7px 5px;
+  background-color: white;
+  filter: white;
+}
+
+.setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
